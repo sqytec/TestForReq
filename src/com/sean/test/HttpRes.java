@@ -44,6 +44,7 @@ public class HttpRes {
 		 */
 //		ipString = "99.12.70.201";
 //		String intURL = "/onlineqry/ccf";
+		ipString = "99.13.44.33";
 		msg = "POST "+intURL+" HTTP/1.1\r\n" + "Host: " + ipString + ":"
 				+ portInteger + "\r\n" + "Connection: close\r\n"
 				+ "Content-Type: text/plain\r\n" + "Content-Length: "
